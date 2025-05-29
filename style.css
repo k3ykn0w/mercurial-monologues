@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/celestial-forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.section-card {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.section-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
